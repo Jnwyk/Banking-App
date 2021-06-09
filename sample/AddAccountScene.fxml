@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="538.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddAccountHandler">
+   <children>
+      <Button layoutX="254.0" layoutY="442.0" mnemonicParsing="false" onAction="#switchToMainWindow" prefHeight="35.0" prefWidth="81.0" text="Back" />
+      <Text layoutX="104.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account" textAlignment="CENTER" wrappingWidth="215.1171875">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="29.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="150.13671875" />
+      <Text layoutX="29.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second name:" wrappingWidth="150.13671875" />
+      <Text layoutX="29.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pesel:" wrappingWidth="150.13671875" />
+      <Text layoutX="29.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City:" wrappingWidth="150.13671875" />
+      <Text layoutX="29.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Street name:" wrappingWidth="150.13671875" />
+      <Text layoutX="29.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Street number:" wrappingWidth="150.13671875" />
+      <TextField fx:id="nameField" layoutX="179.0" layoutY="123.0" />
+      <TextField fx:id="surnameField" layoutX="179.0" layoutY="164.0" />
+      <TextField fx:id="peselField" layoutX="179.0" layoutY="203.0" />
+      <TextField fx:id="cityField" layoutX="179.0" layoutY="245.0" />
+      <TextField fx:id="streetField" layoutX="179.0" layoutY="290.0" />
+      <TextField fx:id="streetNumberField" layoutX="179.0" layoutY="336.0" />
+      <Button fx:id="createButton" layoutX="64.0" layoutY="442.0" mnemonicParsing="false" onAction="#addClient" prefHeight="35.0" prefWidth="81.0" text="Create" />
+   </children>
+</AnchorPane>
